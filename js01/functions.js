@@ -16,8 +16,19 @@ window.onload = function(){
     }else{
         console.log('pta merda ');
     }
-    while (repetir < 1000){
+    while (nome == "joaao"){
         console.log('Hello world!!');
-        repetir++;
+        if(repetir < 10){
+            repetir++;
+        }
+        if(repetir == 10){
+            nome = "guilherme";
+        }
     }
+    for(var numero=0 ; numero < 10; numero++){
+        console.log("ola mundo!");
+    }
+    do{
+        console.log('do');
+    }while(nome == "bah");
 }
